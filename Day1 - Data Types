@@ -78,7 +78,7 @@ When we concatenate HackerRank with is the best place to learn and practice codi
 
 You will not pass this challenge if you attempt to assign the Sample Case values to your variables instead of following the instructions above and reading input from stdin.
 
-Solution in Python3:
+*****Solution in Python3:
 i = 4
 d = 4.0
 s = 'HackerRank '
@@ -95,3 +95,28 @@ print(d+d2)
 # Concatenate and print the String variables on a new line
 print(s+s2)
 # The 's' variable above should be printed first.
+
+******Run Code Results******
+Input (stdin)
+
+    12
+
+    4.0
+
+    is the best place to learn and practice coding!
+
+Your Output (stdout)
+
+    16
+
+    8.0
+
+    HackerRank is the best place to learn and practice coding!
+
+Expected Output
+
+    16
+
+    8.0
+
+    HackerRank is the best place to learn and practice coding!
