@@ -22,7 +22,7 @@ On the first line, we print the string literal Hello, World.. On the second line
 variable which, for this sample case, happens to be Welcome to 30 Days of Code!. If you do not print the variable's contents to stdout, you will not pass the hidden test case.
 
 
-In Python 2:
+*****In Python 2:*****
 
 # Read a full line of input from stdin and save it to our dynamically typed variable, input_string.
 inputString = raw_input()
@@ -33,7 +33,7 @@ print 'Hello, World.'
 # TODO: Write a line of code here that prints the contents of input_string to stdout.
 print(inputString)
 
-In BASH:
+*****In BASH:*****
 
 read inputString # get a line of input from stdin and save it to our variable
 
@@ -43,3 +43,36 @@ echo 'Hello, World.'
 # Write the second line of output
 echo $inputString
 
+*****Output for Run Code in Python2******
+Input (stdin)
+
+    Welcome to 30 Days of Code!
+
+Your Output (stdout)
+
+    Hello, World.
+
+    Welcome to 30 Days of Code!
+
+Expected Output
+
+    Hello, World.
+
+    Welcome to 30 Days of Code!
+    
+******Output for Run Code in BASH******
+Input (stdin)
+
+    Welcome to 30 Days of Code!
+
+Your Output (stdout)
+
+    Hello, World.
+
+    Welcome to 30 Days of Code!
+
+Expected Output
+
+    Hello, World.
+
+    Welcome to 30 Days of Code!
