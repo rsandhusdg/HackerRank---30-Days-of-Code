@@ -1,0 +1,33 @@
+https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem
+
+Solution in Python3:
+
+#!/bin/python3
+
+import sys
+
+
+S = input().strip()
+
+try:
+    print (int(S))
+except ValueError:
+    print ("Bad String")
+    
+Sample Test Case 0:
+
+Compiler Message
+
+Success
+
+Input (stdin)
+
+    3
+
+Your Output (stdout)
+
+    3
+
+Expected Output
+
+    3
